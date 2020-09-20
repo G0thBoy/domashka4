@@ -1,0 +1,145 @@
+@charset "UTF-8";
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+ol li,
+ul li {
+  list-style: none;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+img {
+  vertical-align: top;
+}
+
+/* -------------- */
+@font-face {
+  font-family: "Gilroy";
+  src: url("Gilroy-ExtraBold.woff2") format("woff2"), url("Gilroy-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("Gilroy-Heavy.woff2") format("woff2"), url("Gilroy-Heavy.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("Gilroy-SemiBold.woff2") format("woff2"), url("Gilroy-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.woff2") format("woff2"), url("../fonts/Gilroy-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Regular.woff2") format("woff2"), url("../fonts/Gilroy-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "Gilroy";
+}
+
+#par2 {
+  text-shadow: 1px 1px 1px red;
+}
+
+.about {
+  text-align: center;
+}
+
+.about__title {
+  font-weight: 900;
+}
+
+.about__text {
+  color: pink;
+}
+
+.about__img {
+  margin: 10px 0 10px 0;
+}
+
+.title {
+  font-size: 25px;
+  text-align: center;
+}
+
+.youth__title {
+  color: purple;
+  font-weight: 800;
+}
+
+.youth__text {
+  line-height: 18px;
+  text-shadow: 1px 1px 1px purple;
+}
+
+.achievements__title {
+  font-weight: bold;
+  color: darkorchid;
+}
+
+.achievements__list {
+  text-indent: 20px;
+  font-weight: 600;
+}
+
+.death__title {
+  font-weight: 900;
+}
+
+.death__img {
+  text-align: center;
+}
+
+.death__text {
+  text-shadow: 1px 1px 1px black;
+  word-spacing: 20px;
+}
+
+.link {
+  color: orange;
+  text-decoration: underline;
+}
